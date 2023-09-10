@@ -44,7 +44,7 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium leading-[1.5]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export default function Intro() {
         <span className="italic">captivating digital experiences</span>& my
         forte is <span className="underline">React (Next.js) & MERN Stack</span>
         .
-      </motion.p>
+      </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4"
         initial={{ opacity: 0, y: 100 }}
