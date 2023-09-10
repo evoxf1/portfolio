@@ -2,9 +2,14 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import amazon from "@/public/amazon.png";
+import blog from "@/public/blog.png";
+import dumb from "@/public/dumb.png";
+import fotoshoto from "@/public/fotoshoto.png";
+import photo from "@/public/photo.png";
+import raddit from "@/public/raddit.png";
+import rpg from "@/public/rpg.png";
+import sg from "@/public/sg.png";
 
 export const links = [
   {
@@ -66,42 +71,42 @@ export const projectsData = [
     description:
       "A captivating front-end project, meticulously crafted with JS, CSS, and HTML, demonstrating the beauty of web development.",
     tags: ["JavaScript", "HTML", "CSS"],
-    imageUrl: corpcommentImg,
+    imageUrl: photo,
   },
   {
     title: "BlogApp",
     description:
       "A user-friendly blog application for effortless content creation and sharing, simplifying the art of online storytelling",
     tags: ["JavaScript", "HTML", "CSS"],
-    imageUrl: rmtdevImg,
+    imageUrl: blog,
   },
   {
     title: "FotoShoto",
     description:
       "An Instagram-inspired clone featuring Firebase storage, where you can share and explore captivating moments through stunning photos.",
     tags: ["React", "Next.js", "Firebase", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: fotoshoto,
   },
   {
     title: "Irritating App for Resume",
     description:
       "Playfully delivers resumes with an intentionally cheeky and irritating twist, leaving a memorable impression.",
     tags: ["React", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: dumb,
   },
   {
     title: "Saurabh Gupta",
     description:
       "A fashion designer's portfolio, a fusion of creativity and style, showcasing stunning collections and artistic expression in clothing.",
     tags: ["React", "Next.js", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: sg,
   },
   {
     title: "Random Password Generator",
     description:
       "Your reliable tool for creating secure and unique passwords, enhancing digital safety effortlessly and conveniently.",
     tags: ["JavaScript", "HTML", "CSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: rpg,
   },
   {
     title: "Amazon Clone",
@@ -117,14 +122,14 @@ export const projectsData = [
       "Paypal API",
       "MERN",
     ],
-    imageUrl: wordanalyticsImg,
+    imageUrl: amazon,
   },
   {
     title: "Reddit Clone - RADDIT",
     description:
       "A Reddit clone for sharing posts and engaging in discussions, providing a familiar platform for content sharing and interaction.",
     tags: ["React", "Next.js", "TypeScript", "Firebase", "Tailwind", "MERN"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: raddit,
   },
 ] as const;
 
