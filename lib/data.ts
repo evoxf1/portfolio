@@ -62,24 +62,68 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PhotoGlider App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A captivating front-end project, meticulously crafted with JS, CSS, and HTML, demonstrating the beauty of web development.",
+    tags: ["JavaScript", "HTML", "CSS"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "BlogApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A user-friendly blog application for effortless content creation and sharing, simplifying the art of online storytelling",
+    tags: ["JavaScript", "HTML", "CSS"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "FotoShoto",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "An Instagram-inspired clone featuring Firebase storage, where you can share and explore captivating moments through stunning photos.",
+    tags: ["React", "Next.js", "Firebase", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Irritating App for Resume",
+    description:
+      "Playfully delivers resumes with an intentionally cheeky and irritating twist, leaving a memorable impression.",
+    tags: ["React", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Saurabh Gupta",
+    description:
+      "A fashion designer's portfolio, a fusion of creativity and style, showcasing stunning collections and artistic expression in clothing.",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Random Password Generator",
+    description:
+      "Your reliable tool for creating secure and unique passwords, enhancing digital safety effortlessly and conveniently.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Amazon Clone",
+    description:
+      "A faithful recreation with registration, login, and integrated Stripe and PayPal payments for a true online shopping experience.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Firebase",
+      "Tailwind",
+      "Framer",
+      "Paypal API",
+      "MERN",
+    ],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Reddit Clone - RADDIT",
+    description:
+      "A Reddit clone for sharing posts and engaging in discussions, providing a familiar platform for content sharing and interaction.",
+    tags: ["React", "Next.js", "TypeScript", "Firebase", "Tailwind", "MERN"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -97,11 +141,7 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
