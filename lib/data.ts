@@ -40,28 +40,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web Development Learner- Self Taught",
+    location: "India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Continuously improving web development skills through self-study and online courses. Currently learning HTML, CSS, JavaScript, and ReactJS to build dynamic and interactive web applications.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022- Present",
+  },
+  {
+    title: "Consultant- SHRI GANPATI ENTERPRISE",
+    location: "Bijnor, IN",
+    description:
+      "Provided services relating to IT and Web Development along with Solar Energy conservation to clients.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2022",
+  },
+  {
+    title: "Consultant cum Marketing Executive- ECOLEAF ENERGIES PVT. LTD.",
+    location: "Delhi, IN",
+    description:
+      "Handling all solar and IT related tasks, rooftop solar installation, managing productivity and web issues, and quality assurance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018 - 2019",
+  },
+  {
+    title: "Junior Engineer- MODERN PREFAB SYSTEMS",
+    location: "Gurgaon, IN",
+    description:
+      "Building fabricated shelters, Steel frames, manufacturing and erection of single, double and triple story Pre-Fabricated shelters. It manufactures custom-made structures based on the drawings and specifications given by the client",
+    icon: React.createElement(CgWorkAlt),
+    date: "2016 - 2018",
   },
 ] as const;
 
