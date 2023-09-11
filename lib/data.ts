@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import amazon from "@/public/amazon.png";
 import blog from "@/public/blog.png";
 import dumb from "@/public/dumb.png";
@@ -10,6 +9,7 @@ import photo from "@/public/photo.png";
 import raddit from "@/public/raddit.png";
 import rpg from "@/public/rpg.png";
 import sg from "@/public/sg.png";
+import sahilp from "@/public/sahilp.png"
 
 export const links = [
   {
@@ -74,6 +74,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Portfolio of Myself",
+    description:
+      "A captivating project, meticulously crafted with leading frameworks and libraries demonstrating the skills of myself.",
+    tags: ["TypeScript", "Next.js", "Framer-Motion", "Vercel", "React-Email", "Toast","Tailwind"],
+    imageUrl: sahilp,
+  },
   {
     title: "PhotoGlider App",
     description:
