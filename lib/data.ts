@@ -9,7 +9,8 @@ import photo from "@/public/photo.png";
 import raddit from "@/public/raddit.png";
 import rpg from "@/public/rpg.png";
 import sg from "@/public/sg.png";
-import sahilp from "@/public/sahilp.png"
+import thread from "@/public/thread.png";
+import sahilp from "@/public/sahilp.png";
 
 export const links = [
   {
@@ -75,10 +76,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Threads Clone",
+    description:
+      "A threads clone with login functionality with Oauth and much more.",
+    tags: ["TypeScript", "Next.js", , "Vercel", "Tailwind"],
+    imageUrl: thread,
+  },
+  {
     title: "Portfolio of Myself",
     description:
       "A captivating project, meticulously crafted with leading frameworks and libraries demonstrating the skills of myself.",
-    tags: ["TypeScript", "Next.js", "Framer-Motion", "Vercel", "React-Email", "Toast","Tailwind"],
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Framer-Motion",
+      "Vercel",
+      "React-Email",
+      "Toast",
+      "Tailwind",
+    ],
     imageUrl: sahilp,
   },
   {
