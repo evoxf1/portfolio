@@ -80,6 +80,7 @@ export const projectsData = [
     description:
       "A threads clone with login functionality with Oauth and much more.",
     tags: ["TypeScript", "Next.js", , "Vercel", "Tailwind"],
+    url: "https://threadsbysahil.vercel.app/",
     imageUrl: thread,
   },
   {
@@ -95,6 +96,7 @@ export const projectsData = [
       "Toast",
       "Tailwind",
     ],
+    url: "https://sahil-bhardwaj.vercel.app/",
     imageUrl: sahilp,
   },
   {
@@ -102,6 +104,7 @@ export const projectsData = [
     description:
       "A captivating front-end project, meticulously crafted with JS, CSS, and HTML, demonstrating the beauty of web development.",
     tags: ["JavaScript", "HTML", "CSS"],
+    url: "https://photoglider.netlify.app/",
     imageUrl: photo,
   },
   {
@@ -109,6 +112,7 @@ export const projectsData = [
     description:
       "A user-friendly blog application for effortless content creation and sharing, simplifying the art of online storytelling",
     tags: ["JavaScript", "HTML", "CSS"],
+    url: "https://blog-by-sahil.netlify.app/",
     imageUrl: blog,
   },
   {
@@ -116,13 +120,15 @@ export const projectsData = [
     description:
       "An Instagram-inspired clone featuring Firebase storage, where you can share and explore captivating moments through stunning photos.",
     tags: ["React", "Next.js", "Firebase", "Tailwind", "Framer"],
+    url: "https://fotoshoto.netlify.app/",
     imageUrl: fotoshoto,
   },
   {
-    title: "Irritating App for Resume",
+    title: "Really DUMB* for Resume",
     description:
       "Playfully delivers resumes with an intentionally cheeky and irritating twist, leaving a memorable impression.",
     tags: ["React", "Tailwind", "Framer"],
+    url: "https://dumbportfolio.netlify.app/",
     imageUrl: dumb,
   },
   {
@@ -130,6 +136,7 @@ export const projectsData = [
     description:
       "A fashion designer's portfolio, a fusion of creativity and style, showcasing stunning collections and artistic expression in clothing.",
     tags: ["React", "Next.js", "Tailwind", "Framer"],
+    url: "https://thesaurabhgupta.netlify.app/",
     imageUrl: sg,
   },
   {
@@ -137,6 +144,7 @@ export const projectsData = [
     description:
       "Your reliable tool for creating secure and unique passwords, enhancing digital safety effortlessly and conveniently.",
     tags: ["JavaScript", "HTML", "CSS"],
+    url: "https://randompasswordfoxy.netlify.app/",
     imageUrl: rpg,
   },
   {
@@ -153,6 +161,7 @@ export const projectsData = [
       "Paypal API",
       "MERN",
     ],
+    url: "https://amazona.onrender.com/",
     imageUrl: amazon,
   },
   {
@@ -160,6 +169,7 @@ export const projectsData = [
     description:
       "A Reddit clone for sharing posts and engaging in discussions, providing a familiar platform for content sharing and interaction.",
     tags: ["React", "Next.js", "TypeScript", "Firebase", "Tailwind", "MERN"],
+    url:'https://amazona.onrender.com/',
     imageUrl: raddit,
   },
 ] as const;
