@@ -11,6 +11,7 @@ import rpg from "@/public/rpg.png";
 import sg from "@/public/sg.png";
 import thread from "@/public/thread.png";
 import sahilp from "@/public/sahilp.png";
+import draw from "@/public/draw.png";
 
 export const links = [
   {
@@ -83,6 +84,7 @@ export const projectsData = [
     url: "https://threadsbysahil.vercel.app/",
     imageUrl: thread,
   },
+
   {
     title: "Portfolio of Myself",
     description:
@@ -98,6 +100,14 @@ export const projectsData = [
     ],
     url: "https://sahil-bhardwaj.vercel.app/",
     imageUrl: sahilp,
+  },
+  {
+    title: "Drawit Scribble APP",
+    description:
+      "A scribble app that runs using websockets and can be used by multiple people at the same time. So go and play a tic-tac-toe match.",
+    tags: ["TypeScript", "Next.js", , "Vercel", "Tailwind"],
+    url: "https://dodrawit.vercel.app/",
+    imageUrl: draw,
   },
   {
     title: "PhotoGlider App",
@@ -169,7 +179,7 @@ export const projectsData = [
     description:
       "A Reddit clone for sharing posts and engaging in discussions, providing a familiar platform for content sharing and interaction.",
     tags: ["React", "Next.js", "TypeScript", "Firebase", "Tailwind", "MERN"],
-    url:'https://amazona.onrender.com/',
+    url: "https://amazona.onrender.com/",
     imageUrl: raddit,
   },
 ] as const;
