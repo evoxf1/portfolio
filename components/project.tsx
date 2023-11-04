@@ -32,9 +32,14 @@ function Project({ title, description, tags, imageUrl, url }: ProjectProps) {
             className="text-2xl font-semibold hover:text-yellow-400"
           >
             {title} {""}
-            <span className="text-sm font-thin text-green-400">LIVE</span>
+            <span className="text-sm font-thin text-green-400">LIVE</span >
           </Link>
-          <p className=" mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+            
+            <Link href={`${url}`} className="text-sm font-semibold text-blue-400 hover:text-blue-700"> GITHUB</Link>
+            
+            
+          
+          <p className="leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
