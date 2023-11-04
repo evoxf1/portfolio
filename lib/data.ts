@@ -104,7 +104,7 @@ export const projectsData = [
     imageUrl: sahilp,
   },
   {
-    title: "Drawit Websocket APP",
+    title: "Drawit-Scribble",
     description:
       "A scribble app that runs using websockets and can be used by multiple people at the same time. So go and play a tic-tac-toe match.",
     tags: ["TypeScript", "Next.js", , "Vercel", "Tailwind","Socket.io"],
