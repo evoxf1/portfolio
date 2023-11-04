@@ -82,7 +82,7 @@ export const projectsData = [
       "A threads clone with login functionality with Oauth and much more.",
     tags: ["TypeScript", "Next.js", , "Vercel", "Tailwind"],
     url: "https://threadsbysahil.vercel.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: thread,
   },
 
@@ -100,7 +100,7 @@ export const projectsData = [
       "Tailwind",
     ],
     url: "https://sahil-bhardwaj.vercel.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: sahilp,
   },
   {
@@ -109,7 +109,7 @@ export const projectsData = [
       "A scribble app that runs using websockets and can be used by multiple people at the same time. So go and play a tic-tac-toe match.",
     tags: ["TypeScript", "Next.js", , "Vercel", "Tailwind"],
     url: "https://dodrawit.vercel.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: draw,
   },
   {
@@ -118,7 +118,7 @@ export const projectsData = [
       "A captivating front-end project, meticulously crafted with JS, CSS, and HTML, demonstrating the beauty of web development.",
     tags: ["JavaScript", "HTML", "CSS"],
     url: "https://photoglider.netlify.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: photo,
   },
   {
@@ -127,7 +127,7 @@ export const projectsData = [
       "A user-friendly blog application for effortless content creation and sharing, simplifying the art of online storytelling",
     tags: ["JavaScript", "HTML", "CSS"],
     url: "https://blog-by-sahil.netlify.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: blog,
   },
   {
@@ -136,7 +136,7 @@ export const projectsData = [
       "An Instagram-inspired clone featuring Firebase storage, where you can share and explore captivating moments through stunning photos.",
     tags: ["React", "Next.js", "Firebase", "Tailwind", "Framer"],
     url: "https://fotoshoto.netlify.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: fotoshoto,
   },
   {
@@ -145,7 +145,7 @@ export const projectsData = [
       "Playfully delivers resumes with an intentionally cheeky and irritating twist, leaving a memorable impression.",
     tags: ["React", "Tailwind", "Framer"],
     url: "https://dumbportfolio.netlify.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: dumb,
   },
   {
@@ -154,7 +154,7 @@ export const projectsData = [
       "A fashion designer's portfolio, a fusion of creativity and style, showcasing stunning collections and artistic expression in clothing.",
     tags: ["React", "Next.js", "Tailwind", "Framer"],
     url: "https://thesaurabhgupta.netlify.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: sg,
   },
   {
@@ -163,7 +163,7 @@ export const projectsData = [
       "Your reliable tool for creating secure and unique passwords, enhancing digital safety effortlessly and conveniently.",
     tags: ["JavaScript", "HTML", "CSS"],
     url: "https://randompasswordfoxy.netlify.app/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: rpg,
   },
   {
@@ -181,7 +181,7 @@ export const projectsData = [
       "MERN",
     ],
     url: "https://amazona.onrender.com/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: amazon,
   },
   {
@@ -190,7 +190,7 @@ export const projectsData = [
       "A Reddit clone for sharing posts and engaging in discussions, providing a familiar platform for content sharing and interaction.",
     tags: ["React", "Next.js", "TypeScript", "Firebase", "Tailwind", "MERN"],
     url: "https://amazona.onrender.com/",
-    githubUrl:""
+    githubUrl:"https://github.com/evoxf1/portfolio",
     imageUrl: raddit,
   },
 ] as const;

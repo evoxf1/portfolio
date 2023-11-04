@@ -7,7 +7,7 @@ import { useRef } from "react";
 
 type ProjectProps = (typeof projectsData)[number];
 
-function Project({ title, description, tags, imageUrl, url }: ProjectProps) {
+function Project({ title, description, tags, imageUrl, url, githubUrl }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -35,7 +35,7 @@ function Project({ title, description, tags, imageUrl, url }: ProjectProps) {
             <span className="text-sm font-thin text-green-400">LIVE</span >
           </Link>
             
-            <Link href={`${url}`} className="text-sm font-semibold text-blue-400 hover:text-blue-700"> GITHUB</Link>
+            <Link href={`${githubUrl}`} className="text-sm font-semibold text-blue-400 hover:text-blue-700"> GITHUB</Link>
             
             
           
