@@ -12,6 +12,7 @@ import sg from "@/public/sg.png";
 import thread from "@/public/thread.png";
 import sahilp from "@/public/sahilp.png";
 import draw from "@/public/draw.png";
+import googlemeet from "@/public/googlemeet.png";
 
 export const links = [
   {
@@ -78,9 +79,18 @@ export const experiencesData = [
 export const projectsData = [
   
   {
-    title: "Threads Clone",
+    title: "Video Chat App",
     description:
-      "A threads clone with login functionality with Oauth and much more.",
+      "A video chat app just like Google Meet.",
+    tags: ["JavaScript", "Next.js", "WebHooks", "WebSockets", "Tailwind"],
+    url: "https://github.com/evoxf1/googlemeet",
+    githubUrl:"https://github.com/evoxf1/googlemeet",
+    imageUrl: googlemeet,
+  },
+  {
+    title: "Social Media APP",
+    description:
+      "A social media clone with login functionality with Oauth and much more.",
     tags: ["TypeScript", "Next.js", , "Vercel", "Tailwind"],
     url: "https://threadsbysahil.vercel.app/",
     githubUrl:"https://github.com/evoxf1/threadsbyme",
